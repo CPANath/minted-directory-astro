@@ -1,122 +1,152 @@
 [
   {
-    "title": "Calm",
+    "title": "AWS KB Retrieval",
     "card_image": "",
-    "description": "Offers guided meditations, sleep stories, and calming music to help users relax and improve sleep.",
-    "link": "https://minteddirectory.com"
+    "description": "Retrieval from AWS Knowledge Base using Bedrock Agent Runtime",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server"
   },
   {
-    "title": "Headspace",
+    "title": "Brave Search",
     "card_image": "",
-    "description": "Provides a variety of guided meditations, sleep content, and mindfulness exercises for daily use.",
-    "link": "https://minteddirectory.com"
+    "description": "Web and local search using Brave's Search API",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search"
   },
   {
-    "title": "Insight Timer",
+    "title": "EverArt",
     "card_image": "",
-    "description": "Features a vast library of guided meditations, talks, and music tracks from teachers worldwide.",
-    "link": "https://minteddirectory.com"
+    "description": "AI image generation using various models",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/everart"
   },
   {
-    "title": "Buddhify",
+    "title": "Everything",
     "card_image": "",
-    "description": "Customizable meditation sessions for various situations, with a one-time payment model.",
-    "link": "https://minteddirectory.com"
+    "description": "Reference / test server with prompts, resources, and tools",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything"
   },
   {
-    "title": "Smiling Mind",
+    "title": "Fetch",
     "card_image": "",
-    "description": "A non-profit app designed by psychologists, offering mindfulness programs for different age groups and settings.",
-    "link": "https://minteddirectory.com"
+    "description": "Web content fetching and conversion for efficient LLM usage",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
   },
   {
-    "title": "Meditopia",
+    "title": "Filesystem",
     "card_image": "",
-    "description": "Focuses on sleep and stress reduction with guided meditations in multiple languages.",
-    "link": "https://minteddirectory.com"
+    "description": "Secure file operations with configurable access controls",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
   },
   {
-    "title": "10% Happier",
+    "title": "Git",
     "card_image": "",
-    "description": "Teaches meditation through videos, guided sessions, and a personal coaching feature.",
-    "link": "https://minteddirectory.com"
+    "description": "Tools to read, search, and manipulate Git repositories",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/git"
   },
   {
-    "title": "Simple Habit",
+    "title": "GitHub",
     "card_image": "",
-    "description": "Offers short, 5-minute meditations for busy individuals, with sessions led by mindfulness experts.",
-    "link": "https://minteddirectory.com"
+    "description": "Repository management, file operations, and GitHub API integration",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/github"
   },
   {
-    "title": "Aura",
+    "title": "GitLab",
     "card_image": "",
-    "description": "Personalized mindfulness meditations, stories, and coaching to reduce stress and anxiety.",
-    "link": "https://minteddirectory.com"
+    "description": "GitLab API, enabling project management",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab"
   },
   {
-    "title": "Breethe",
+    "title": "Google Drive",
     "card_image": "",
-    "description": "Provides guided meditations, inspirational talks, and supportive community features.",
-    "link": "https://minteddirectory.com"
+    "description": "File access and search capabilities for Google Drive",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive"
   },
   {
-    "title": "MyLife Meditation",
+    "title": "Google Maps",
     "card_image": "",
-    "description": "Offers mood tracking and personalized meditation recommendations based on user emotions.",
-    "link": "https://minteddirectory.com"
+    "description": "Location services, directions, and place details",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
   },
   {
-    "title": "Waking Up",
+    "title": "Memory",
     "card_image": "",
-    "description": "Created by neuroscientist Sam Harris, offering guided meditations and philosophical insights.",
-    "link": "https://minteddirectory.com"
+    "description": "Knowledge graph-based persistent memory system",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
   },
   {
-    "title": "Medito",
+    "title": "PostgreSQL",
     "card_image": "",
-    "description": "A free meditation app with a variety of guided sessions and customizable features.",
-    "link": "https://minteddirectory.com"
+    "description": "Read-only database access with schema inspection",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
   },
   {
-    "title": "Healthy Minds Program",
+    "title": "Puppeteer",
     "card_image": "",
-    "description": "Focuses on increasing awareness and well-being through guided meditations and podcast-style content.",
-    "link": "https://minteddirectory.com"
+    "description": "Browser automation and web scraping",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer"
   },
   {
-    "title": "Sattva",
+    "title": "Sentry",
     "card_image": "",
-    "description": "Offers guided meditations, chants, and mantras, with a focus on ancient Vedic principles.",
-    "link": "https://minteddirectory.com"
+    "description": "Retrieving and analyzing issues from Sentry.io",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/sentry"
   },
   {
-    "title": "Mindfulness.com",
+    "title": "Sequential Thinking",
     "card_image": "",
-    "description": "Provides a range of mindfulness meditations and courses for beginners and experienced practitioners.",
-    "link": "https://minteddirectory.com"
+    "description": "Dynamic and reflective problem-solving through thought sequences",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking"
   },
   {
-    "title": "Oak",
+    "title": "Slack",
     "card_image": "",
-    "description": "A free meditation and breathing app with customizable sessions and progress tracking.",
-    "link": "https://minteddirectory.com"
+    "description": "Channel management and messaging capabilities",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack"
   },
   {
-    "title": "Stop, Breathe & Think",
+    "title": "Sqlite",
     "card_image": "",
-    "description": "Offers mindfulness and meditation activities tailored to user emotions and experiences.",
-    "link": "https://minteddirectory.com"
+    "description": "Database interaction and business intelligence capabilities",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
   },
   {
-    "title": "The Mindfulness App",
+    "title": "Time",
     "card_image": "",
-    "description": "Provides guided and silent meditations with customizable session lengths and reminders.",
-    "link": "https://minteddirectory.com"
+    "description": "Time and timezone conversion capabilities",
+    "link": "https://github.com/modelcontextprotocol/servers/tree/main/src/time"
   },
   {
-    "title": "Zenfie",
+    "title": "21st.dev Magic",
     "card_image": "",
-    "description": "Offers a variety of meditation techniques, including breathwork, sound baths, and guided journeys.",
-    "link": "https://minteddirectory.com"
+    "description": "Create crafted UI components inspired by the best 21st.dev design engineers",
+    "link": "https://github.com/21st-dev/magic-mcp"
+  },
+  {
+    "title": "Apify",
+    "card_image": "",
+    "description": "Use 3,000+ pre-built cloud tools to extract data from websites, e-commerce, social media, search engines, maps, and more",
+    "link": "https://github.com/apify/actors-mcp-server"
+  },
+  {
+    "title": "Axiom",
+    "card_image": "",
+    "description": "Query and analyze your Axiom logs, traces, and all other event data in natural language",
+    "link": "https://github.com/axiomhq/mcp-server-axiom"
+  },
+  {
+    "title": "Browserbase",
+    "card_image": "",
+    "description": "Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)",
+    "link": "https://github.com/browserbase/mcp-server-browserbase"
+  },
+  {
+    "title": "Cloudflare",
+    "card_image": "",
+    "description": "Deploy, configure & interrogate your resources on the Cloudflare developer platform (e.g. Workers/KV/R2/D1)",
+    "link": "https://github.com/cloudflare/mcp-server-cloudflare"
+  },
+  {
+    "title": "E2B",
+    "card_image": "",
+    "description": "Run code in secure sandboxes hosted by E2B",
+    "link": "https://github.com/e2b-dev/mcp-server"
   }
 ]

@@ -5,6 +5,7 @@ export interface ThemeConfig {
     title: string;
     logo: string;
     iconLogo: string;
+    layout: "side" | "navbar";
     seo: {
       name: string;
       description: string;

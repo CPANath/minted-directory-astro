@@ -1,0 +1,19 @@
+---
+import Posthog from "../analytics/Posthog.astro";
+import Footer from "./Footer.astro";
+import Navbar from "./Navbar.astro";
+import Banner from "./header/Banner.astro";
+---
+
+<div class="flex">
+  <div
+    class="hidden lg:block h-screen shrink-0 w-60 border-r overflow-y-auto scrollbar-thin"
+  >
+    tags
+  </div>
+  <div>
+    <slot />
+  </div>
+
+  <Posthog />
+</div>
