@@ -29,6 +29,9 @@ importers:
       '@astrojs/vue':
         specifier: ^5.0.7
         version: 5.0.7(@types/node@22.7.4)(astro@5.5.2(@types/node@22.7.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.9)(typescript@5.6.2)(yaml@2.5.1))(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.9)(vue@3.5.11(typescript@5.6.2))(yaml@2.5.1)
+      '@auth/core':
+        specifier: ^0.39.1
+        version: 0.39.1
       '@fontsource-variable/dm-sans':
         specifier: ^5.2.5
         version: 5.2.5
@@ -71,6 +74,9 @@ importers:
       astro-sheet-loader:
         specifier: ^1.0.5
         version: 1.0.5(@types/node@22.7.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.9)(typescript@5.6.2)(yaml@2.5.1)
+      auth-astro:
+        specifier: ^4.2.0
+        version: 4.2.0(@auth/core@0.39.1)(astro@5.5.2(@types/node@22.7.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.9)(typescript@5.6.2)(yaml@2.5.1))
       dotenv:
         specifier: ^16.4.7
         version: 16.4.7
@@ -212,6 +218,20 @@ packages:
 
   '@astrojs/yaml2ts@0.2.1':
     resolution: {integrity: sha512-CBaNwDQJz20E5WxzQh4thLVfhB3JEEGz72wRA+oJp6fQR37QLAqXZJU0mHC+yqMOQ6oj0GfRPJrz6hjf+zm6zA==}
+
+  '@auth/core@0.39.1':
+    resolution: {integrity: sha512-McD8slui0oOA1pjR5sPjLPl5Zm//nLP/8T3kr8hxIsvNLvsiudYvPHhDFPjh1KcZ2nFxCkZmP6bRxaaPd/AnLA==}
+    peerDependencies:
+      '@simplewebauthn/browser': ^9.0.1
+      '@simplewebauthn/server': ^9.0.2
+      nodemailer: ^6.8.0
+    peerDependenciesMeta:
+      '@simplewebauthn/browser':
+        optional: true
+      '@simplewebauthn/server':
+        optional: true
+      nodemailer:
+        optional: true
 
   '@babel/code-frame@7.25.7':
     resolution: {integrity: sha512-0xZJFNE5XMpENsgfHYTw8FbX4kv53mFLn2i3XPoq69LyhYSCBJtitaHx9QnsVTrsogI4Z3+HtEfZ2/GFPOtf5g==}
@@ -841,6 +861,9 @@ packages:
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
 
+  '@panva/hkdf@1.2.1':
+    resolution: {integrity: sha512-6oclG6Y3PiDFcoyk8srjLfVKyMfVCKJ27JwNPViuXziFpmdz+MZnZN/aKY0JGXgYuO/VghU0jcOAZgWXZ1Dmrw==}
+
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
@@ -1363,6 +1386,13 @@ packages:
 
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+
+  auth-astro@4.2.0:
+    resolution: {integrity: sha512-Jx0dFAvwJ5UJ6E/2J6rqPNhXzTX6Fj18sIq12U7n+J15TV7etpXSHFPPcQdAmfDmX3RCURp253Vxe4l/keNW1g==}
+    engines: {node: '>=17.4'}
+    peerDependencies:
+      '@auth/core': ^0.37.3
+      astro: '>=4.0.0'
 
   axios@1.7.7:
     resolution: {integrity: sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==}
@@ -2175,6 +2205,9 @@ packages:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
 
+  jose@6.0.11:
+    resolution: {integrity: sha512-QxG7EaliDARm1O1S8BGakqncGT9s25bKL1WSf6/oa17Tkqwi8D2ZNglqCF+DsYF88/rV66Q/Q2mFAy697E1DUg==}
+
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
@@ -2623,6 +2656,9 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
+  oauth4webapi@3.5.2:
+    resolution: {integrity: sha512-VYz5BaP3izIrUc1GAVzIoz4JnljiW0YAUFObMBwsqDnfHxz2sjLu3W7/8vE8Ms9IbMewN9+1kcvhY3tMscAeGQ==}
+
   object-inspect@1.13.4:
     resolution: {integrity: sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==}
     engines: {node: '>= 0.4'}
@@ -2740,6 +2776,14 @@ packages:
   postcss@8.5.3:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
+
+  preact-render-to-string@6.5.11:
+    resolution: {integrity: sha512-ubnauqoGczeGISiOh6RjX0/cdaF8v/oDXIjO85XALCQjwQP+SB4RDXXtvZ6yTYSjG+PC1QRP2AhPgCEsM2EvUw==}
+    peerDependencies:
+      preact: '>=10'
+
+  preact@10.24.3:
+    resolution: {integrity: sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA==}
 
   prettier@2.8.7:
     resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
@@ -2924,6 +2968,9 @@ packages:
     resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
     hasBin: true
+
+  set-cookie-parser@2.7.1:
+    resolution: {integrity: sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==}
 
   sharp@0.33.5:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
@@ -3832,6 +3879,14 @@ snapshots:
     dependencies:
       yaml: 2.5.1
 
+  '@auth/core@0.39.1':
+    dependencies:
+      '@panva/hkdf': 1.2.1
+      jose: 6.0.11
+      oauth4webapi: 3.5.2
+      preact: 10.24.3
+      preact-render-to-string: 6.5.11(preact@10.24.3)
+
   '@babel/code-frame@7.25.7':
     dependencies:
       '@babel/highlight': 7.25.7
@@ -4506,6 +4561,8 @@ snapshots:
       - encoding
 
   '@oslojs/encoding@1.1.0': {}
+
+  '@panva/hkdf@1.2.1': {}
 
   '@polka/url@1.0.0-next.28': {}
 
@@ -5229,6 +5286,12 @@ snapshots:
       - yaml
 
   asynckit@0.4.0: {}
+
+  auth-astro@4.2.0(@auth/core@0.39.1)(astro@5.5.2(@types/node@22.7.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.9)(typescript@5.6.2)(yaml@2.5.1)):
+    dependencies:
+      '@auth/core': 0.39.1
+      astro: 5.5.2(@types/node@22.7.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.9)(typescript@5.6.2)(yaml@2.5.1)
+      set-cookie-parser: 2.7.1
 
   axios@1.7.7:
     dependencies:
@@ -6175,6 +6238,8 @@ snapshots:
 
   jiti@2.4.2: {}
 
+  jose@6.0.11: {}
+
   js-tokens@4.0.0: {}
 
   js-yaml@4.1.0:
@@ -6847,6 +6912,8 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
+  oauth4webapi@3.5.2: {}
+
   object-inspect@1.13.4: {}
 
   ofetch@1.4.1:
@@ -6977,6 +7044,12 @@ snapshots:
       nanoid: 3.3.8
       picocolors: 1.1.1
       source-map-js: 1.2.1
+
+  preact-render-to-string@6.5.11(preact@10.24.3):
+    dependencies:
+      preact: 10.24.3
+
+  preact@10.24.3: {}
 
   prettier@2.8.7:
     optional: true
@@ -7252,6 +7325,8 @@ snapshots:
   semver@7.6.3: {}
 
   semver@7.7.1: {}
+
+  set-cookie-parser@2.7.1: {}
 
   sharp@0.33.5:
     dependencies:
